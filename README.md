@@ -1,6 +1,9 @@
 # PyNLPtoolkit
 A series of functions for parsing strange, but pertinent entries in a corpus (intended for Natural Language Programing).
 
+I plan on using it for Natural Language Processing. All of the texts I'm reading tell you to just remove numbers from NLP. My thought is that is very pertinent data and should not be overlooked; so I imagined a toolkit that would allow me to send in number strings and spit out number-words; then I also added in some relavence around phone number and email extraction as well (other typically removed items due to regular expressions '@' and '-'). The next steps are to include the ability to parse dates (20220303, 3/30/2022, Mar 30th, 2022, etc) and measurement data (1mL, 0.255mg, 2'6", etc) from text as well.
+
+
 *Call By Importing*
 import PyNLPtoolkit
 
