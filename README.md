@@ -1,6 +1,9 @@
 # PyNLPtoolkit
 A series of functions for parsing strange, but pertinent entries in a corpus (intended for Natural Language Programing).
 
+*Call By Importing*
+import PyNLPtoolkit
+
 Contains the Following Functions:
 
 extract_phone_numb(inputString): Returns a list of all phone numbers (handles international) in a given sentence/string
